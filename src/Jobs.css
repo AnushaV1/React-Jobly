@@ -1,0 +1,9 @@
+.Jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 1.5em auto 1em auto; 
+}
+

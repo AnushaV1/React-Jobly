@@ -1,0 +1,12 @@
+.CompanyCard {
+    width: 60%;
+    margin: 1.5em auto 0 auto; 
+}
+
+.CompanyCard-btn {
+	margin: 1em 0 0.5em 1em;
+}
+
+.CompanyCard-title {
+	margin: 10px 0 5px 10px;
+}

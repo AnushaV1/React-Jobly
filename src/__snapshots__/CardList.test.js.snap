@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="CardList"
+  >
+    <div
+      class="card text-white bg-info mb-3"
+      style="margin-top: 10px;"
+    >
+      <div
+        class="card-body"
+      >
+        <h4
+          class="card-title"
+        />
+        <p
+          class="card-text"
+        >
+          Salary: 
+        </p>
+        <p
+          class="card-text"
+        >
+          Equity: 
+        </p>
+        <button
+          class="btn btn-primary font-weight-bold text-uppercase float-right"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+    <div
+      class="card text-white bg-info mb-3"
+      style="margin-top: 10px;"
+    >
+      <div
+        class="card-body"
+      >
+        <h4
+          class="card-title"
+        />
+        <p
+          class="card-text"
+        >
+          Salary: 
+        </p>
+        <p
+          class="card-text"
+        >
+          Equity: 
+        </p>
+        <button
+          class="btn btn-primary font-weight-bold text-uppercase float-right"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

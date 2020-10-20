@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot with logo 1`] = `
+<DocumentFragment>
+  <div
+    class="card text-white bg-info mb-3"
+    style="margin-top: 10px;"
+  >
+    <div
+      class="card-body"
+    >
+      <h4
+        class="card-title"
+      >
+        <a
+          href="/companies/rithm"
+        >
+          <span
+            class="text-capitalize"
+          >
+            Rithm School
+          </span>
+           
+        </a>
+      </h4>
+      <p
+        class="card-text"
+      >
+        Become an exceptional developer in 16 weeks.
+        <img
+          alt="Rithm School Logo"
+          src="https://pbs.twimg.com/profile_images/770491761412173826/ZUeIa4tw_400x400.jpg"
+          style="width: 50px; height: 50px;"
+        />
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot without logo 1`] = `
+<DocumentFragment>
+  <div
+    class="card text-white bg-info mb-3"
+    style="margin-top: 10px;"
+  >
+    <div
+      class="card-body"
+    >
+      <h4
+        class="card-title"
+      >
+        <a
+          href="/companies/algo"
+        >
+          <span
+            class="text-capitalize"
+          >
+            Algo School
+          </span>
+           
+        </a>
+      </h4>
+      <p
+        class="card-text"
+      >
+        Become a mediocre developer in 160 weeks.
+        <img
+          alt="Algo School Logo"
+          src="default-logo.jpg"
+          style="width: 50px; height: 50px;"
+        />
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
