@@ -1,7 +1,7 @@
 import React, {useState} from "react";
-import "./Search.css"
+import "./Search.css";
 
-const Search = ({search}) => {
+const Search = ({ searchFor }) => {
     const INITIAL_VALUE =  {search: ''}
     const [searchData, setSearchData] = useState(INITIAL_VALUE);
     const handleChange = e => {
@@ -14,7 +14,7 @@ const Search = ({search}) => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        search({...searchData});
+        searchFor({...searchData});
         
     }
 
@@ -22,9 +22,9 @@ const Search = ({search}) => {
         <div className='Search'>
         <form onSubmit={handleSubmit}>
         <div className="input-group">
-    <input type="text" class="form-control" placeholder="Search" name="search" value={searchData.search} onChange={handleChange} />
+    <input type="text" className="form-control" placeholder="Search" name="search" value={searchData.search} onChange={handleChange} />
     <div className="input-group-btn">
-        <button className="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        <button className="btn btn-default" type="submit"><i className="glyphicon glyphicon-search"></i></button>
     </div>
     </div>
     </form>
