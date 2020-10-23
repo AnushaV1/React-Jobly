@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = process.env.REACT_APP_BACKEND_URL ||  'http://anusha-jobly.herokuapp.com';
+const BASE_URL = process.env.REACT_APP_BACKEND_URL ||  'https://anusha-jobly.herokuapp.com';
 //"http://localhost:3001";
 class JoblyApi {
 
